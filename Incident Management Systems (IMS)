@@ -1,0 +1,21 @@
+# Incident Management Systems (IMS)
+
+Incident Management Systems serve as the interface where SOC teams conduct the investigation process and document actions taken during incidents. SOC analysts spend a significant portion of their time working within these systems.
+
+An example of an IMS is the open-source project, [TheHive](https://thehive-project.org/).
+
+Similarly, "Case Management" on LetsDefend can be considered an example of Incident Management Systems.
+
+## How Incident Management Systems (IMS) Works?
+
+To initiate a record on the Incident Management platform, data entry must first be provided. This data can come directly from the SIEM or other security products. Once the data flow is established, a ticket/case is created on the Incident Management System.
+
+If integrations with "Threat Intelligence," "SOAR," and similar platforms are in place, data within the case is enriched, facilitating quick responses. For example, if there is a suspicious domain like "letsdefend.io," integration with a threat intelligence platform allows the automatic querying of the domain's reputation for the SOC analyst. In cases without threat intelligence platform integration, a manual query from open-source platforms like Virustotal is required.
+
+Moreover, SOAR products offer integration with various security products such as Firewall, IPS, WAF, Proxy, Email Gateway, and Email Security products. If a harmful domain like "letsdefend.io" is identified, the SOC can swiftly block access to this address within the organization using SOAR.
+
+Consider the "Investigation Channel" on the LetsDefend Monitoring page. Clicking the "Create Case" button here generates a new "Case" in the "Case Management," essentially creating a new record on the IMS.
+
+Lastly, alert details from SIEM are transmitted to the Incident Management System, which works in coordination with Threat Intelligence and SOAR platforms to process all data, resulting in the creation of a new case/ticket. Threat Intelligence and SOAR integrations on IMS facilitate data enrichment and various actions, and the alert is closed upon completion of operations.
+
+*P.S.: As mentioned earlier, the Incident Management System (IMS) is a platform where SOC analysts spend a significant amount of time. Effectively utilizing IMS platforms can significantly reduce investigation time and eliminate repetitive tasks. Therefore, continuously enhancing your knowledge and skills on IMS platforms is crucial.*
