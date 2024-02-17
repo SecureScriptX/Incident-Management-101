@@ -1,0 +1,18 @@
+# Case/Alert Naming
+
+Ensuring that tickets, cases, or records created in the Incident Management system have meaningful titles is crucial. Adopting unified naming conventions is vital for retrospective inquiries, enabling quick retrieval of relevant records and easy extraction of statistics during investigations. A well-crafted title should provide an immediate understanding of the ticket or case. LetsDefend's "Case Management" employs the following naming method:
+
+**EventID: {Alert ID Number} - [{Alert Name}]**
+
+
+This naming convention allows analysts to swiftly access alarm details using either the alarm ID or name when reviewing past records.
+
+## Real-world Examples and Additional Fields
+
+In real-world scenarios, the naming format described above is a common industry practice. Additionally, titles may sometimes include the following fields:
+
+- Alert Category
+- Event Source
+- Description
+
+Example: eventid: 25 - [soc15 - malware detected]
