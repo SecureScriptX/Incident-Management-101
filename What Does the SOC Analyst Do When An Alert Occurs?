@@ -1,0 +1,26 @@
+
+# Alert Analysis and Resolution Workflow
+
+In the preceding sections, we discussed the occurrence of alerts. As a Security Operations Center (SOC) Analyst, our primary responsibility is to detect threats to your organization, achieved by analyzing alerts generated in SIEM or a different environment.
+
+Not all alerts indicate an actual incident; false positives are common. Dealing with false positives consumes a significant portion of your time, necessitating constant communication with the team responsible for creating SIEM rules to provide feedback. To ascertain whether an alert is a false positive, SOC Analysts delve into details. Since there's no standard analysis method due to the diverse types of alerts (web, malware, endpoint, etc.), following playbooks in incident management systems becomes crucial.
+
+## Workflow Overview
+
+While the choice of alert doesn't matter in a simulated environment, real-life scenarios prioritize alerts with high severity values. Clicking the "Take Ownership" button initiates the working standard, ensuring that each team member focuses on a specific alert to prevent duplication of effort.
+
+### Investigation and Playbook Steps
+
+After taking ownership, the alert appears in the "Investigation Channel." Clicking on the alert reveals details, prompting the analyst to determine if it contains a harmful situation—a crucial step in distinguishing between false positive and true positive alerts. The analyst can create a record in "Case Management/Incident Management" by clicking the "Create Case" button and following playbook steps.
+
+The playbook guides the analyst through steps and, upon closing the alert, prompts a review of analysis results through predefined questions.
+
+### Final Decision and Analysis Results
+
+Upon completing the playbook steps, the analyst is redirected to the Monitoring page. A final decision must be made: Is the alert a false positive or a true positive?
+
+After making selections and providing explanations, the analyst can close the alert and view analysis results. In real life, verifying analysis results may not always be feasible. Collaboration with a senior analyst or examination of closed alerts in LetsDefend offers opportunities to learn new methods.
+
+Once closed, the alert moves to the "Closed Alerts" channel, where analysts can review their responses.
+
+*P.S.: In real-life scenarios, continuous learning is essential, and closed alerts provide valuable insights into analysis results.*
