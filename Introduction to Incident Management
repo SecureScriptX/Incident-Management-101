@@ -1,0 +1,9 @@
+# Introduction to Incident Management
+
+In this course, we shall dive into the handling of incidents within an organization and the essential steps in the investigation process. Throughout, we will provide examples from LetsDefend and discuss best practices in incident management.
+
+The National Cyber Security Centre (NCSC) defines a cyber incident as a breach of a system's security policy, aiming to compromise its integrity or availability, and/or the unauthorized access or attempted access to a system or systems, in alignment with the Computer Misuse Act.
+
+In the prior SIEM 101 training, I've explored how data is collected and transformed into alerts within the Security Operations Center (SOC). The "Incident Management System" is one of the platforms where alerts from SIEM are gathered and investigated.
+
+In the subsequent sections of this training, we will elucidate the workings of an Incident Management System, and discuss the reasons and methods for utilizing these systems as SOC analysts.
